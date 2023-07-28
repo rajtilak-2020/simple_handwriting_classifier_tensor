@@ -1,0 +1,9 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: handwriting-classifier-CNN-app
+    src: ./
+    engine: nodejs16
+    primary: true
+    dev: node index.js
+    public: true
