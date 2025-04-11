@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000
 app.use(express.static(path.join(__dirname, '3 - handwriting_classifier_CNN')))
 
 app.get('/', (req, res) => {
-  res.sendFile(path.resolve(__dirname, 'C1_W2_Lab_1_mnist.html'))
+  res.sendFile(path.resolve(__dirname, 'index.html'))
 })
 
 app.listen(port, () => {
